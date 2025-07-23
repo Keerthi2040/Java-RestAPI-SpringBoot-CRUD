@@ -6,13 +6,13 @@ A Java Spring Boot REST API application that performs full CRUD operations on cl
 
 ## 🚀 Tech Stack
 
-- Java 17
+- Java 24
 - Spring Boot
 - Spring Web
-- Spring Data JPA (optional if using database)
 - Maven
 - Postman
 
+Spring Intializer
 ---
 
 ## 📌 Features
@@ -28,16 +28,23 @@ A Java Spring Boot REST API application that performs full CRUD operations on cl
 
 {
   "vendorId": "c1",
+  
   "vendorName": "Vendor One",
+  
   "vendorAddress": "123 Main St, City",
+  
   "vendorPhoneNumber": "9876543210"
 }
 
 ## 🧪 Postman Test URLs
 
 Method	Endpoint	Description
+
 GET	/cloudvendor/c1	Get vendor by ID
+
 POST	/cloudvendor	Add a new vendor
+
 PUT	/cloudvendor	Update an existing one
+
 DELETE	/cloudvendor/c1	Delete vendor by ID
 
